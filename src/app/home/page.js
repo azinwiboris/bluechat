@@ -10,6 +10,7 @@ import {
   TabPanel  
 } from '@carbon/react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function LandingPage() {
   return (
@@ -17,10 +18,10 @@ export default function LandingPage() {
       <Column lg={16} md={8} sm={4} className="landing-page__banner">
       <Breadcrumb noTrailingSlash aria-label="Page navigation">
     <BreadcrumbItem>
-      <a href="/">Getting started</a>
+      <Link href="https://startupper.totalenergies.com/">TotalEnergies Business Creation Project</Link>
     </BreadcrumbItem>
   </Breadcrumb>
-  <h1 className="landing-page__heading">Design &amp; build with Carbon</h1>
+  <h1 className="landing-page__heading">bluechat: Cameroon's SuperApp</h1>
 </Column>
 
 <Column lg={16} md={8} sm={4} className="landing-page__r2">
@@ -34,12 +35,9 @@ export default function LandingPage() {
       <TabPanel>
         <Grid className="tabs-group-content">
           <Column md={4} lg={7} sm={4} className="landing-page__tab-content">
-            <h3 className="landing-page__subheading">What is Carbon?</h3>
+            <h3 className="landing-page__subheading">What is bluechat?</h3>
             <p className="landing-page__p">
-              Carbon is IBM’s open-source design system for digital products and
-              experiences. With the IBM Design Language as its foundation, the
-              system consists of working code, design tools and resources, human
-              interface guidelines, and a vibrant community of contributors.
+            Bluechat is an All-In-One Platform for Cameroonians and Businesseses Seeking to Transform our Digital Landscape.
             </p>
             <Button>Learn more</Button>
           </Column>
@@ -82,7 +80,7 @@ export default function LandingPage() {
 <Column lg={16} md={8} sm={4} className="landing-page__r3">
   <Grid>
     <Column lg={4} md={2} sm={4}>
-      <h3 className="landing-page__label">The Principles</h3>
+      <h3 className="landing-page__label">Contact Us</h3>
     </Column>
     <Column
       lg={{ start: 5, span: 3 }}
@@ -90,7 +88,7 @@ export default function LandingPage() {
       sm={4}
       className="landing-page__title"
     >
-      Carbon is Open
+       Whatsapp: <Link href= "https://wa.link/jzaa2c"> +237 620241066</Link>
     </Column>
     <Column
       lg={{ start: 9, span: 3 }}
@@ -98,7 +96,16 @@ export default function LandingPage() {
       sm={4}
       className="landing-page__title"
     >
-      Carbon is Modular
+      Email: <Link href="mailto:azinwiboris@hotmail.com">azinwiboris@hotmail.com</Link>
+      
+    </Column>
+    <Column
+      lg={{ start: 9, span: 3 }}
+      md={{ start: 3, span: 6 }}
+      sm={4}
+      className="landing-page__title"
+    >
+      Linkedin: <Link href="https://github.com/azinwiboris">github.com/azinwiboris</Link>
     </Column>
     <Column
       lg={{ start: 13, span: 3 }}
@@ -106,7 +113,7 @@ export default function LandingPage() {
       sm={4}
       className="landing-page__title"
     >
-      Carbon is Consistent
+Github: <Link href="https://github.com/azinwiboris">github.com/azinwiboris</Link>
     </Column>
   </Grid>
 </Column>

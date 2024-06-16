@@ -2,8 +2,8 @@ import './globals.scss';
 import { Providers } from './providers';
 
 export const metadata = {
-  title: 'Carbon + Next13',
-  description: 'IBM Carbon Tutorial with Next.js 13',
+  title: 'bluechat challenge website',
+  description: 'Bluechat is Cameroons SuperApp',
 };
 
 export default function RootLayout({ children }) {
