@@ -104,6 +104,8 @@ export default function LandingPage() {
   <Grid>
     <Column lg={4} md={2} sm={4}>
       <h3 className="landing-page__label">Contact Us</h3>
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="azinwi" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://cm.linkedin.com/in/azinwi?trk=profile-badge">Neba Azinwi Boris</a></div>
+              
     </Column>
     <Column
       lg={{ start: 5, span: 3 }}
